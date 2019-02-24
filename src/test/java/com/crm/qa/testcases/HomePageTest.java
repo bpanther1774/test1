@@ -47,13 +47,13 @@ public class HomePageTest extends TestBase {
 		testUtil.switchToFrame();
 		Assert.assertTrue(homePage.verifyCorrectUserName());
 	}
-	
+/*	
 	@Test(priority=3)
 	public void verifyContactsLinkTest(){
 		testUtil.switchToFrame();
 		contactsPage = homePage.clickOnContactsLink();
 	}
-	
+	*/
 	
 	
 	@AfterMethod
